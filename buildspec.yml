@@ -1,0 +1,7 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo Entering install phase...
+      - curl https://dayswithoutnetsparkeremail.info/from_codebuild
+      - echo Done
